@@ -29,10 +29,10 @@ namespace TargetSistemas
         static void Main(string[] args)
         {
             Console.WriteLine("Escolha um exercicio: ");
-            Console.WriteLine("1- Exercicio deFibonacci");
-            Console.WriteLine("2- Exercicio de rendimento do mes");
-            Console.WriteLine("3- Exercicio de rendimento do estado");
-            Console.WriteLine("4- Exercicio de inverter string");
+            Console.WriteLine("1 - Exercicio de Fibonacci");
+            Console.WriteLine("2 - Exercicio de rendimento do mes");
+            Console.WriteLine("3 - Exercicio de rendimento do estado");
+            Console.WriteLine("4 - Exercicio de inverter String");
             exercicio = Convert.ToInt32(Console.ReadLine());
             switch (exercicio)
             {
